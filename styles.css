@@ -1,26 +1,27 @@
 .container{
-	padding:20px;
+	
 	display:flex;
-	flex-direction:row;
+	flex-wrap:wrap;
 	justify-content:space-between;
 }
-.item{
-	padding:30px;
-	margin:2px;
+
+.three{
+	height:80px;
+	width:80px;
 	background-color:green;
+	font-size:40px;
 }
-/* #a{
-	padding:30px;
-	margin:2px;
-	background-color:green;
-} */
-#b{
-	padding:30px;
-	margin:2px;
-	background-color:tomato;
-}
-#c{
-	padding:30px;
-	margin:2px;
+.two{
+	height:80px;
+	width:80px;
 	background-color:blue;
+	font-size:40px;
+}
+
+.one{
+	height:80px;
+	width:80px;
+	background-color:red;
+	font-size:40px;
+
 }
