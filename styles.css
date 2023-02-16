@@ -1,2 +1,26 @@
-
-/* Your CSS Code here. */
+.container{
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+/* .item{
+	padding:30px;
+	margin:2px;
+	background-color:green;
+} */
+#a{
+	padding:30px;
+	margin:2px;
+	background-color:green;
+}
+#b{
+	padding:30px;
+	margin:2px;
+	background-color:tomato;
+}
+#c{
+	padding:30px;
+	margin:2px;
+	background-color:blue;
+}
